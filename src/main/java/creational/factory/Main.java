@@ -5,11 +5,12 @@ package creational.factory;
  */
 public class Main {
     public static void main(String[] args) {
-        DeveloperFactory developerFactory =createDeveloperFactory("C#");
-        Developer developer=developerFactory.created();
+        DeveloperFactory developerFactory = createDeveloperFactory("Java");
+        Developer developer = developerFactory.created();
         developer.writeCode();
     }
-    public static DeveloperFactory createDeveloperFactory(String dev){
+
+    public static DeveloperFactory createDeveloperFactory(String dev) {
         switch (dev) {
             case "Java":
                 return new JavaDeveloperFactory();
