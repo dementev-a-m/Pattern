@@ -1,5 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto detect textArea files and perform LF normalization
+* textArea=auto
 
 # Custom for Visual Studio
 *.cs     diff=csharp
